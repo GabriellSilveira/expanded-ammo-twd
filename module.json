@@ -2,7 +2,7 @@
   "id": "expanded-ammo-twd",
   "title": "Expanded Ammo TWD",
   "description": "Adds automatic ammunition tracking and consumption (by weapon type or generic ammo) with a ready-to-use compendium for The Walking Dead Universe RPG (EN & PT-BR).",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "compatibility": {
     "minimum": "12",
     "verified": "13"
