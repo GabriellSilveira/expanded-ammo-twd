@@ -1,0 +1,50 @@
+{
+  "id": "expanded-ammo-twd",
+  "title": "Expanded Ammo TWD",
+  "description": "Adds automatic ammunition tracking and consumption (by weapon type or generic ammo) with a ready-to-use compendium for The Walking Dead Universe RPG (EN & PT-BR).",
+  "version": "1.1.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "twdu",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "packs": [
+    {
+      "name": "ammunition",
+      "label": "Expanded Ammo TWD",
+      "path": "packs/ammunition.db",
+      "type": "Item",
+      "system": "twdu",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "url": "https://github.com/gabriellsilveira/expanded-ammo-twd",
+  "manifest": "https://raw.githubusercontent.com/gabriellsilveira/expanded-ammo-twd/main/module.json",
+  "download": "https://github.com/gabriellsilveira/expanded-ammo-twd/archive/refs/heads/main.zip"
+}

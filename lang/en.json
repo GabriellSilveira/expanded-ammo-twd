@@ -1,0 +1,21 @@
+{
+  "EXPANDED_AMMO_TWD": {
+    "Settings": {
+      "EnabledName": "Enable Ammunition Tracking",
+      "EnabledHint": "Automatically consumes matching ammunition from the actor's inventory when firing ranged weapons.",
+      "AmmoModeName": "Ammunition Mode",
+      "AmmoModeHint": "Choose whether weapons consume specific ammo types (Pistol, Shotgun, Rifle, etc.) or a single generic Ammo item.",
+      "ModeByType": "By Weapon Type (Pistol, Shotgun, Rifle, Arrow, etc.)",
+      "ModeGeneric": "Generic Ammunition (Single 'Ammo' / 'Munição' item for all weapons)",
+      "NotifyOnConsumeName": "Show Ammo Consumption in Chat",
+      "NotifyOnConsumeHint": "Posts a compact message in chat showing remaining ammunition after each shot."
+    },
+    "Chat": {
+      "OutOfAmmoTitle": "⚠️ Out of Ammo!",
+      "OutOfAmmoBody": "<strong>{actor}</strong> tried to fire <em>{weapon}</em>, but has no <strong>{ammo}</strong> in their inventory!",
+      "SpentLabel": "-1 {ammo}",
+      "EmptyRemaining": "Out of ammo! (0 remaining)",
+      "RemainingCount": "{count} remaining in inventory."
+    }
+  }
+}

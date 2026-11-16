@@ -1,0 +1,21 @@
+{
+  "EXPANDED_AMMO_TWD": {
+    "Settings": {
+      "EnabledName": "Ativar Controle de Munição",
+      "EnabledHint": "Consome automaticamente a munição correspondente do inventário do personagem ao disparar armas à distância.",
+      "AmmoModeName": "Modo de Munição",
+      "AmmoModeHint": "Escolha se as armas consomem munições específicas por tipo (Pistola, Espingarda, Fuzil, etc.) ou um item único genérico.",
+      "ModeByType": "Por Tipo de Arma (Pistola, Espingarda, Fuzil, Flecha, etc.)",
+      "ModeGeneric": "Munição Genérica (Item único 'Munição' / 'Ammo' para todas as armas)",
+      "NotifyOnConsumeName": "Exibir Consumo de Munição no Chat",
+      "NotifyOnConsumeHint": "Envia uma mensagem discreta no chat mostrando quanta munição resta após cada disparo."
+    },
+    "Chat": {
+      "OutOfAmmoTitle": "⚠️ Sem Munição!",
+      "OutOfAmmoBody": "<strong>{actor}</strong> tentou disparar <em>{weapon}</em>, mas não possui <strong>{ammo}</strong> no inventário!",
+      "SpentLabel": "-1 {ammo}",
+      "EmptyRemaining": "Acabou a munição! (0 restante)",
+      "RemainingCount": "Restam {count} no inventário."
+    }
+  }
+}
