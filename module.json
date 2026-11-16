@@ -1,8 +1,8 @@
 {
   "id": "expanded-ammo-twd",
   "title": "Expanded Ammo TWD",
-  "description": "Adds automatic ammunition tracking and consumption (by weapon type or generic ammo) with a ready-to-use compendium for The Walking Dead Universe RPG (EN & PT-BR).",
-  "version": "1.3.0",
+  "description": "Adds automatic ammunition tracking and consumption (by weapon type or generic ammo) with ready-to-use compendiums for The Walking Dead Universe RPG (EN & PT-BR).",
+  "version": "1.4.0",
   "compatibility": {
     "minimum": "12",
     "verified": "13"
@@ -21,15 +21,61 @@
   ],
   "packs": [
     {
-      "name": "ammunition",
-      "label": "Expanded Ammo TWD",
-      "path": "packs/ammunition.db",
+      "name": "en-specific",
+      "label": "English - Specific Ammo",
+      "path": "packs/en-specific.db",
       "type": "Item",
       "system": "twdu",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "en-generic",
+      "label": "English - Generic Ammo",
+      "path": "packs/en-generic.db",
+      "type": "Item",
+      "system": "twdu",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pt-specific",
+      "label": "Português - Munições Específicas",
+      "path": "packs/pt-specific.db",
+      "type": "Item",
+      "system": "twdu",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pt-generic",
+      "label": "Português - Munição Genérica",
+      "path": "packs/pt-generic.db",
+      "type": "Item",
+      "system": "twdu",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Expanded Ammo TWD",
+      "sorting": "m",
+      "color": "#5c2c2c",
+      "packs": [
+        "pt-specific",
+        "pt-generic",
+        "en-specific",
+        "en-generic"
+      ]
     }
   ],
   "languages": [
